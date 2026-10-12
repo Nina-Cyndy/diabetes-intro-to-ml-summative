@@ -1,0 +1,19 @@
+# Raw and processed data: never commit (hosted on Google Drive)
+data/
+
+# Saved models (hosted on Google Drive)
+*.joblib
+*.pkl
+*.h5
+*.keras
+saved_models/
+
+# Experiment logs
+wandb/
+logs/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
